@@ -170,6 +170,30 @@ footer {
 }
 
 
+/* Media Query untuk membuat desain responsif */
+
+@media (max-width: 1200px) {
+    .daftar-buku {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .daftar-buku {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .daftar-buku {
+        grid-template-columns: 1fr;
+    }
+    .buku {
+        padding: 0.8rem;
+    }
+}
+
+
 /*halaman registrasi*/
 
 .form-section {
